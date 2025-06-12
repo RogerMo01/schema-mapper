@@ -1,6 +1,6 @@
 import express, { NextFunction, Request, Response } from "express";
 const router = express.Router();
-import da from "../dataAccess/contract";
+import da from "../dataAccess/da";
 
 // middleware that is specific to this router
 // const middlewareUseLog = (req: Request, res: Response, next: NextFunction) => {
