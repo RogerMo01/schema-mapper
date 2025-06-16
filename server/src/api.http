@@ -12,3 +12,7 @@ Content-Type: text/csv
 
 < ./sample.csv
 ------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+
+### Fetch Entities
+GET http://localhost:5000/entities

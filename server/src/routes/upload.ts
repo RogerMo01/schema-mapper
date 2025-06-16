@@ -9,7 +9,7 @@ import da from "../dataAccess/da";
 // };
 // router.use(middlewareUseLog);
 
-// Receive file save it, and respond with token
+// Receive file, save it, and respond with token
 router.post(
   "/",
   da.saveFileMiddleware("file"),
