@@ -16,7 +16,7 @@ export default function Main() {
         Mapear Entidad
       </h1>
       {stage === "upload" && <UploadStage finishStage={finishUpload} />}
-      {stage === "mapping" && <div>Mapping stage</div>}
+      {stage === "mapping" && <div>Map stage</div>}
     </div>
   );
 }
